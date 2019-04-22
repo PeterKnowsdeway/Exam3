@@ -2,6 +2,8 @@
 //Exam 3
 //4/22/2019
 
+//node package used: https://www.npmjs.com/package/read-data
+
 var read = require('read-data');
 var data =read.sync('data.json');
 
@@ -14,7 +16,7 @@ var data =read.sync('data.json');
 //console.log(JSON.stringify(data));  //This prints out the entire object
 
 //for(i = 0; i < data.length; i++){  //For loop for the array
-    //console.log(data['items']['fname'], data['items'][i]['age']);      //Prints out blank spots
+    //console.log(data['items']['fname'], data['items'][i]['age']);      //No output
 //}
 
 for(i = 0; i < data['items'].length; i++){// Read into the the items object instead of the file 
