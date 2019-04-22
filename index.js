@@ -5,9 +5,13 @@
 var read = require('read-data');
 var data =read.sync('data.json');
 
+//console.log(data);
+//for(i = 0; i < data.length; i++){
+    //console.log(data.items.fname, data.items.age); // Throws an error
+//}
 
 
-//console.log(JSON.stringify(data));
+//console.log(JSON.stringify(data));  //This prints out the entire object
 
 //for(i = 0; i < data.length; i++){  //For loop for the array
     //console.log(data['items']['fname'], data['items'][i]['age']);      //Prints out blank spots
