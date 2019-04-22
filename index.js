@@ -3,4 +3,8 @@
 //4/22/2019
 
 var read = require('read-data');
-console.log(read.sync('data.json'));
+var data =read.sync('data.json');
+
+for(i = 0; i < data.length; i++){
+    console.log(items['fname'], items['age']);
+}
